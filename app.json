@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "calculadora8",
-    "slug": "calculadora8",
+    "name": "clinic Info",
+    "slug": "clinic-info",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ronny_minda.clinicinfo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2185a920-eb79-4b52-9060-f3ce24085196"
+      }
+    },
+    "owner": "ronny_minda"
   }
 }
